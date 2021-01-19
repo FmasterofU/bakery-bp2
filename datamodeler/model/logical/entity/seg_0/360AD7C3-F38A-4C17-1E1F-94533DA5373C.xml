@@ -4,7 +4,7 @@
 <createdTime>2021-01-19 18:48:24 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+<item key="0102D821-2B72-6FC3-8949-0DE899A908E7" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -16,13 +16,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idDistr" id="7DA0FFE3-34DC-2CFC-5A2C-454F8617B5B4">
+<Attribute name="idDist" id="7DA0FFE3-34DC-2CFC-5A2C-454F8617B5B4">
 <createdBy>igors</createdBy>
 <createdTime>2021-01-19 19:54:52 UTC</createdTime>
 <generatorID>45C52A49-C3C7-F792-C71C-247BAACC8FBE</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+<item key="0102D821-2B72-6FC3-8949-0DE899A908E7" value="true"/>
 </engineerTo>
 <referedAttribute>76ABFD46-548E-8B06-0BD7-DEC17400380A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>

@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="32B69B84-2B7F-BF6D-A87B-C5974A38759A" name="potpisanPDist">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="32B69B84-2B7F-BF6D-A87B-C5974A38759A" name="potpisanPUD">
 <createdBy>igors</createdBy>
 <createdTime>2021-01-19 19:33:07 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+<item key="0102D821-2B72-6FC3-8949-0DE899A908E7" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,13 +15,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idDistr" id="E471FDAB-5F7E-A20A-2744-8A4C55BCADFA">
+<Attribute name="idDist" id="E471FDAB-5F7E-A20A-2744-8A4C55BCADFA">
 <createdBy>igors</createdBy>
 <createdTime>2021-01-19 20:06:56 UTC</createdTime>
 <generatorID>05E18040-CF7C-3C89-FE66-CBC968F7B4D3</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+<item key="0102D821-2B72-6FC3-8949-0DE899A908E7" value="true"/>
 </engineerTo>
 <referedAttribute>76ABFD46-548E-8B06-0BD7-DEC17400380A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -35,7 +35,7 @@
 <generatorID>4450D8D7-A588-C9B7-96BC-7B34382CD167</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+<item key="0102D821-2B72-6FC3-8949-0DE899A908E7" value="true"/>
 </engineerTo>
 <referedAttribute>E05DAAA2-3CBE-3ED5-C55A-03AC84DCFC96</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,14 +45,15 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F8866F81-D8A5-4436-C866-4CD6ED50B18F" name="potpisanPDist PK">
+<identifier id="F8866F81-D8A5-4436-C866-4CD6ED50B18F" name="potpisanPUD PK">
 <createdBy>igors</createdBy>
 <createdTime>2021-01-19 20:08:44 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+<item key="0102D821-2B72-6FC3-8949-0DE899A908E7" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>E471FDAB-5F7E-A20A-2744-8A4C55BCADFA,4756BFD6-5177-8286-F387-36260C219983</newElementsIDs>
 <usedAttributes>
 <attributeRef>E471FDAB-5F7E-A20A-2744-8A4C55BCADFA</attributeRef>
 <attributeRef>4756BFD6-5177-8286-F387-36260C219983</attributeRef>
