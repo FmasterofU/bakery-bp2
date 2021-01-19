@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="model" id="BAD7885E-04E3-A52E-35B9-E3C3CF87C46E" version="3.5">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 18:38:52 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BAD7885E-04E3-A52E-35B9-E3C3CF87C46E</designId>
+</OSDM_Design>
