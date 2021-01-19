@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FD66418B-457A-5BB5-81C2-C57E8DE0E034" containerWithKeyObject="84624B60-D2F3-E4C6-D731-8F43726EE601" localFKIndex="C3E79FED-0113-E242-246F-077A6B5DC072" name="potpisanPDist_Distributer_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 21:06:15 UTC</createdTime>
+<generatorID>05E18040-CF7C-3C89-FE66-CBC968F7B4D3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Distributer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>27E1D1FD-6C21-69A2-56A8-9E34D2C3A764</referredTableID>
+<keyObject>9B09FCAF-EF8C-9711-B697-A0501F7E56B7</keyObject>
+<referredKeyID>9B09FCAF-EF8C-9711-B697-A0501F7E56B7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idDistr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

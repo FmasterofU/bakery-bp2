@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0571A4EB-5CF0-5DF7-D7C6-F9E00C3EC27E" name="obuhvataSir">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 21:06:15 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NabUgovor_idUgo" id="B43155FE-5C1E-B12B-8CA7-CA8299C499BC">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 21:06:15 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="314AABBD-1BD6-6686-ADF7-E754C3E2E008" referredColumn="FC0D030E-85FD-EB7F-F713-D88F2B2DEC83"/>
+</associations>
+</Column>
+<Column name="Sirovina_idSir" id="E5C22C67-15F6-0E40-A703-3ABADC2F14EC">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 21:06:15 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6949F0F1-B5FF-F26E-2F13-EEE5C0B24974" referredColumn="A751D53F-59F4-D214-04AA-85404B4AF0C8"/>
+</associations>
+</Column>
+<Column name="kolicina" id="E822E050-5C82-BC40-776D-D959F4D1D71D">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 21:06:15 UTC</createdTime>
+<generatorID>01D9CC1D-9DA6-1CA5-7747-86E54E0C0396</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="jedinica" id="3D9390BC-69CA-C6CD-0F85-85B2CD986824">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 21:06:15 UTC</createdTime>
+<generatorID>73BEB6AD-D4FE-B735-B0C5-9ADB281BF1CF</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0B2AEBD-B34C-07C9-45F1-AABB5810292A" name="obuhvataSir_PK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 21:06:15 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B43155FE-5C1E-B12B-8CA7-CA8299C499BC"/>
+<colUsage columnID="E5C22C67-15F6-0E40-A703-3ABADC2F14EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53A74DFF-ACFC-2EFC-84C9-104405BF72B2" name="obuhvataSir_NabUgovor_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 21:06:15 UTC</createdTime>
+<generatorID>6205863A-1C5F-DADC-44B1-CCEA318FE4D3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B43155FE-5C1E-B12B-8CA7-CA8299C499BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6FA268D-D802-0E45-AD85-B659AE2982F5" name="obuhvataSir_Sirovina_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 21:06:15 UTC</createdTime>
+<generatorID>6205863A-1C5F-DADC-44B1-CCEA318FE4D3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5C22C67-15F6-0E40-A703-3ABADC2F14EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
