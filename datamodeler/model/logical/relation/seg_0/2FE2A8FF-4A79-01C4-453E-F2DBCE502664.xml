@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="potpisanP" directorySegmentName="seg_0" id="2FE2A8FF-4A79-01C4-453E-F2DBCE502664">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 20:02:11 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<targetPk>8EDB8142-0FA0-07D6-E870-8F284F682D27</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>69BAC861-396A-9100-BA34-45EB95D77498</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1C8EF038-964C-F6B0-AB5D-0B131CC3EFD2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

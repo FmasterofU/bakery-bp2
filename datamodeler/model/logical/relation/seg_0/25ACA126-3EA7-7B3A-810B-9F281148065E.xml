@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="gerundPotpisanPDistObuhvataProizPPD" directorySegmentName="seg_0" id="25ACA126-3EA7-7B3A-810B-9F281148065E">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 20:13:57 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<sourcePk>F8866F81-D8A5-4436-C866-4CD6ED50B18F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>32B69B84-2B7F-BF6D-A87B-C5974A38759A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>90EC9C74-02F6-F924-E94D-DCD62D545A62</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

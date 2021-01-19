@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="gerundProdUgovorObuhvataProizOP" directorySegmentName="seg_0" id="C4A7400C-DB6B-FB8B-BE9D-5D73A3E4F328">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 20:13:08 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<sourcePk>17EC221A-1671-6755-8D5D-6DEFB603FD5D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B2394EC2-626D-A279-DA80-72F3D4A2B97A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6011CF41-0D89-14F0-79D8-29B27D13911C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

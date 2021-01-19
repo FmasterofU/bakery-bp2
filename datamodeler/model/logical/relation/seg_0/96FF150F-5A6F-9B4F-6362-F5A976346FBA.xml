@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sastav" directorySegmentName="seg_0" id="96FF150F-5A6F-9B4F-6362-F5A976346FBA">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 19:49:58 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<sourcePk>17EC221A-1671-6755-8D5D-6DEFB603FD5D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B2394EC2-626D-A279-DA80-72F3D4A2B97A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>627A63FD-2179-681B-D8C0-6F000031DF3D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

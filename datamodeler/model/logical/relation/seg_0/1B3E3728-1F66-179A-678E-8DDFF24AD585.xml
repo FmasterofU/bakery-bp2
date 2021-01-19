@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dostava" directorySegmentName="seg_0" id="1B3E3728-1F66-179A-678E-8DDFF24AD585">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 20:16:33 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<sourcePk>4C1C3005-784B-09FF-E7A1-174E12946684</sourcePk>
+<targetPk>8EDB8142-0FA0-07D6-E870-8F284F682D27</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>90EC9C74-02F6-F924-E94D-DCD62D545A62</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1C8EF038-964C-F6B0-AB5D-0B131CC3EFD2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

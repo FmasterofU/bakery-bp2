@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6011CF41-0D89-14F0-79D8-29B27D13911C" name="obuhvataProiz">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 19:32:13 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="kolicina" id="E235DB39-B08D-CB28-32D4-BEE6BF773231">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 19:32:29 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idUgo" id="2A0C15B2-EF69-3E49-ACA1-0E5EB03CD84B">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 20:11:08 UTC</createdTime>
+<generatorID>5BBE1A67-8CD6-DCF3-6365-4324D1F1C73A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<referedAttribute>E05DAAA2-3CBE-3ED5-C55A-03AC84DCFC96</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idProiz" id="36A46E70-8335-9F79-DF66-FE01F78F37D8">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 20:13:08 UTC</createdTime>
+<generatorID>C4A7400C-DB6B-FB8B-BE9D-5D73A3E4F328</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<referedAttribute>030FBF9A-1CEA-F2D3-1F7D-98783862D4D2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F659C428-15C9-3B0B-1D27-F3065D54FD4A" name="obuhvataProiz PK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 20:11:31 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2A0C15B2-EF69-3E49-ACA1-0E5EB03CD84B</attributeRef>
+<attributeRef>36A46E70-8335-9F79-DF66-FE01F78F37D8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

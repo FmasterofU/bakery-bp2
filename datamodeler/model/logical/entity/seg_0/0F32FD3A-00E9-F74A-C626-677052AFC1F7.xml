@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F32FD3A-00E9-F74A-C626-677052AFC1F7" name="Ugovor">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 19:05:53 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idUgo" id="E05DAAA2-3CBE-3ED5-C55A-03AC84DCFC96">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 19:06:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipUgo" id="C4E0D4A8-CCED-4780-AB77-34971B187302">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 19:10:01 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>077CCE1F-47DF-8BFB-CA11-3AD6821466DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idZap" id="0C2CFCA7-E68E-F7AE-7033-0E15D70BC0C1">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 19:44:07 UTC</createdTime>
+<generatorID>CDD5DE99-0113-6F71-BAD3-759149E656F1</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<referedAttribute>981CDBDB-3D67-1845-A8E4-48DA2BF8F428</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="37B5091E-80BD-0643-A681-5338FD16ECA3" name="Ugovor PK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 19:06:15 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E05DAAA2-3CBE-3ED5-C55A-03AC84DCFC96</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="90EC9C74-02F6-F924-E94D-DCD62D545A62" name="isporucuje">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 19:33:39 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idDistr" id="92C34F0D-1687-906B-2420-2981A5D8F514">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 20:13:57 UTC</createdTime>
+<generatorID>25ACA126-3EA7-7B3A-810B-9F281148065E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<referedAttribute>E471FDAB-5F7E-A20A-2744-8A4C55BCADFA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idUgo" id="6C6C514F-F799-9632-06DC-5B3E6F51D4C5">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 20:13:57 UTC</createdTime>
+<generatorID>25ACA126-3EA7-7B3A-810B-9F281148065E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<referedAttribute>4756BFD6-5177-8286-F387-36260C219983</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idUgo1" id="814E5D84-B67A-7678-82AF-7CD23C127708">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 20:15:42 UTC</createdTime>
+<generatorID>94D0A5FF-9692-94E6-2E28-7FA123EE4DDE</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<referedAttribute>2A0C15B2-EF69-3E49-ACA1-0E5EB03CD84B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idProiz" id="AF57A046-2AF4-F782-FD04-30F8A6ED8B4E">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 20:15:42 UTC</createdTime>
+<generatorID>94D0A5FF-9692-94E6-2E28-7FA123EE4DDE</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<referedAttribute>36A46E70-8335-9F79-DF66-FE01F78F37D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idProd" id="3E787F12-2B9D-CBA4-043C-91A75B106DB4">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 20:16:56 UTC</createdTime>
+<generatorID>1B3E3728-1F66-179A-678E-8DDFF24AD585</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<referedAttribute>FE0DB318-7588-769E-4B2F-6FE648264B36</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C1C3005-784B-09FF-E7A1-174E12946684" name="isporucuje PK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-19 20:15:33 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92C34F0D-1687-906B-2420-2981A5D8F514</attributeRef>
+<attributeRef>6C6C514F-F799-9632-06DC-5B3E6F51D4C5</attributeRef>
+<attributeRef>814E5D84-B67A-7678-82AF-7CD23C127708</attributeRef>
+<attributeRef>AF57A046-2AF4-F782-FD04-30F8A6ED8B4E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
