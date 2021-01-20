@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4B5E16A-4CE7-8B1E-FE03-602CAFDD8B4F" name="Zaposleni">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>7CBE327D-0BD4-3D09-8E3D-9A1563650D66</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idZap" id="B0EEF85D-8694-0350-3C67-6C84BCBA64B8">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>981CDBDB-3D67-1845-A8E4-48DA2BF8F428</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imeZap" id="B2945C6C-4A3C-036C-D5E8-EB212E427D28">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>A9D6689F-3F47-C8FD-E5BE-51CA7E6733A4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipZap" id="5C9E577C-1B34-DC15-4EF9-FFCD4BFF6655">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>225C6EE3-A151-0CB7-9C14-66B2C1CD652A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<constraintName>CH_INH_Zaposleni</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<domain>0DD74CA2-7BAC-0744-C35D-2B954B8A5663</domain>
+<listOfValues>
+<valueDef value="Menadzer" description="entity Menadzer"/>
+<valueDef value="Pekar" description="entity Pekar"/>
+<valueDef value="Zaposleni" description="entity Zaposleni"/>
+</listOfValues>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3AF42B5-893C-787A-8DD5-5430A9E3F882" name="Zaposleni_PK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>D90A3BBA-9283-0A65-27FF-3F0F2B42A32F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0EEF85D-8694-0350-3C67-6C84BCBA64B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

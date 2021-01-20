@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4AD20B1-2131-3ADE-2C7A-DBD09509861A" name="NabUgovor">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>360AD7C3-F38A-4C17-1E1F-94533DA5373C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idUgo" id="68B6482C-5E27-BED4-F3F0-0A1A59989F95">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>E05DAAA2-3CBE-3ED5-C55A-03AC84DCFC96</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4AB5C44D-A936-38BF-4447-DD4C6A5A4D7C" referredColumn="A67F6E2C-7711-0E77-6235-83E4FA34237A"/>
+</associations>
+</Column>
+<Column name="Distributer_idDist" id="23777169-D9E2-7C84-24A7-48F7F56AA3E1">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>7DA0FFE3-34DC-2CFC-5A2C-454F8617B5B4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8BC4802-7E39-808C-35DD-0DE870BA6275" referredColumn="D54C5E3D-7F84-B42F-F5FC-CE69F1055346"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9E17741-1B89-DE6E-649A-F8FCC7837DFA" name="NabUgovor_PK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>37B5091E-80BD-0643-A681-5338FD16ECA3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68B6482C-5E27-BED4-F3F0-0A1A59989F95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C8F9116-1CC1-956E-3FDA-ACC6D947CF21" name="NabUgovor_Ugovor_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>07B0803B-CA93-661F-C228-C91B9075547A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68B6482C-5E27-BED4-F3F0-0A1A59989F95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B2266B3-6FEC-0FD6-6E95-2BD90A784E54" name="NabUgovor_Distributer_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>45C52A49-C3C7-F792-C71C-247BAACC8FBE</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23777169-D9E2-7C84-24A7-48F7F56AA3E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

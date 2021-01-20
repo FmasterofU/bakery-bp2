@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B9C9D904-A664-BE01-FB3F-D3AD141FB6F8" containerWithKeyObject="936CC059-194A-A099-DF88-D30D38A7EC37" localFKIndex="7B728F09-787F-2665-E992-455ADE22AD85" name="obuhvataSir_Sirovina_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>6205863A-1C5F-DADC-44B1-CCEA318FE4D3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Sirovina</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>355E6C23-77D3-3901-B357-32337B1B3B1A</referredTableID>
+<keyObject>85B6C57A-5988-0DB9-56F3-2D903852DB02</keyObject>
+<referredKeyID>85B6C57A-5988-0DB9-56F3-2D903852DB02</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idSir</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

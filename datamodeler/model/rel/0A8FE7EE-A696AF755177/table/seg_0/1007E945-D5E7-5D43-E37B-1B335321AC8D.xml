@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1007E945-D5E7-5D43-E37B-1B335321AC8D" name="potpisanPUD">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>32B69B84-2B7F-BF6D-A87B-C5974A38759A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Distributer_idDist" id="19D34C56-1461-AA51-5FF2-427E4F2E6422">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>E471FDAB-5F7E-A20A-2744-8A4C55BCADFA</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB181D9E-94D7-0B36-C3B0-8E4D7AEF71C3" referredColumn="D54C5E3D-7F84-B42F-F5FC-CE69F1055346"/>
+</associations>
+</Column>
+<Column name="ProdUgovor_idUgo" id="A1BBA0D3-7703-C547-DE2C-7A882EC0119A">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>4756BFD6-5177-8286-F387-36260C219983</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="514F2655-964E-461A-752B-B698AAED7E5B" referredColumn="2754312C-C8DE-81BD-41BA-4B914A11385B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D172854-4356-3086-5806-D4EEE337188E" name="potpisanPUD_PK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>F8866F81-D8A5-4436-C866-4CD6ED50B18F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19D34C56-1461-AA51-5FF2-427E4F2E6422"/>
+<colUsage columnID="A1BBA0D3-7703-C547-DE2C-7A882EC0119A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45E95589-1C61-D2D9-467F-2A4646F8CFF3" name="potpisanPUD_Distributer_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>05E18040-CF7C-3C89-FE66-CBC968F7B4D3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19D34C56-1461-AA51-5FF2-427E4F2E6422"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AEF79EA5-4250-8AEA-F0AB-C927CC60AD27" name="potpisanPUD_ProdUgovor_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>4450D8D7-A588-C9B7-96BC-7B34382CD167</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1BBA0D3-7703-C547-DE2C-7A882EC0119A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

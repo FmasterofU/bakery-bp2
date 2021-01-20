@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="034CCF07-CE3D-DBA3-C8DB-E66BA4F82185" name="ProdUgovor">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>69BAC861-396A-9100-BA34-45EB95D77498</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idUgo" id="2754312C-C8DE-81BD-41BA-4B914A11385B">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>E05DAAA2-3CBE-3ED5-C55A-03AC84DCFC96</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5EADCE9-1EC7-9D5D-513C-6EC52804360F" referredColumn="A67F6E2C-7711-0E77-6235-83E4FA34237A"/>
+</associations>
+</Column>
+<Column name="Prodavnica_idProd" id="A8FA7627-19F6-73DE-36C6-9A97B87587BF">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>42F46D66-DFD0-9707-8C55-0337AEF985D4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95884F61-F145-9DD3-8938-99563AD29EBB" referredColumn="97B27FED-B7F5-6FDE-BA07-EDC61C8ACCBE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C92BBB01-4C38-30B4-4A4D-5A9112B40B59" name="ProdUgovor_PK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>37B5091E-80BD-0643-A681-5338FD16ECA3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2754312C-C8DE-81BD-41BA-4B914A11385B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08F63C4B-EC38-9BC0-25DC-519FD2559C5C" name="ProdUgovor_Ugovor_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>C0D4C998-1826-DA2A-AC3B-5520D7AC088F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2754312C-C8DE-81BD-41BA-4B914A11385B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97F36607-2759-838B-82D4-FCAA994DF75B" name="ProdUgovor_Prodavnica_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>2FE2A8FF-4A79-01C4-453E-F2DBCE502664</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8FA7627-19F6-73DE-36C6-9A97B87587BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

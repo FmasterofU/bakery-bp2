@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1E9AA486-5973-C0D9-7F85-A59F20BB1A6F" containerWithKeyObject="6A9198F5-6674-8606-FF3A-4C4955287B91" localFKIndex="22C72027-DA57-1B57-BBCA-DAED6B8706E1" name="Menadzer_Zaposleni_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>4DE2AD48-C010-4188-6C6F-A51FCEB10E23</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Zaposleni</referredTableLongName>
+<arc>070B6D8D-8E8F-5368-0E40-FB7CA50A90E3</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B4B5E16A-4CE7-8B1E-FE03-602CAFDD8B4F</referredTableID>
+<keyObject>E3AF42B5-893C-787A-8DD5-5430A9E3F882</keyObject>
+<referredKeyID>E3AF42B5-893C-787A-8DD5-5430A9E3F882</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idZap</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Menadzer</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

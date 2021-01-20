@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4AB5C44D-A936-38BF-4447-DD4C6A5A4D7C" containerWithKeyObject="C4AD20B1-2131-3ADE-2C7A-DBD09509861A" localFKIndex="1C8F9116-1CC1-956E-3FDA-ACC6D947CF21" name="NabUgovor_Ugovor_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>07B0803B-CA93-661F-C228-C91B9075547A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Ugovor</referredTableLongName>
+<arc>D2A7C0F7-4BDF-DAE3-2784-4E067706C560</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A3D90255-CB94-81D9-C9F1-9BCB639B9587</referredTableID>
+<keyObject>8EC3791C-3359-A373-E8AA-B8C5DD503A14</keyObject>
+<referredKeyID>8EC3791C-3359-A373-E8AA-B8C5DD503A14</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idUgo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>NabUgovor</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

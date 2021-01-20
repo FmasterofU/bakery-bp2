@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D751E31E-B254-FFCA-8F7B-B361F12D37A2" name="obuhvataProiz">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>6011CF41-0D89-14F0-79D8-29B27D13911C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kolicina" id="60FD7B55-0A50-BC5F-6863-92A42FA49B9E">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>E235DB39-B08D-CB28-32D4-BEE6BF773231</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProdUgovor_idUgo" id="F129D44A-5E55-DD36-A279-6D6193F4EFA5">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>2A0C15B2-EF69-3E49-ACA1-0E5EB03CD84B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2504F038-FA7A-FB90-F196-EDC13E3B5299" referredColumn="2754312C-C8DE-81BD-41BA-4B914A11385B"/>
+</associations>
+</Column>
+<Column name="Proizvod_idProiz" id="5C33F987-F00E-9338-A0A1-DEBC2F086CB9">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>36A46E70-8335-9F79-DF66-FE01F78F37D8</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2312212F-7EC0-4881-29FD-9699FEEE6759" referredColumn="101867BB-613C-2774-45E2-2641B9D018FA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90FEEDE4-E109-F2DF-0856-7C511850C3BB" name="obuhvataProiz_PK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>F659C428-15C9-3B0B-1D27-F3065D54FD4A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F129D44A-5E55-DD36-A279-6D6193F4EFA5"/>
+<colUsage columnID="5C33F987-F00E-9338-A0A1-DEBC2F086CB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98615F00-FD4C-9EB2-6997-EEBF589FD2D9" name="obuhvataProiz_Proizvod_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>C4A7400C-DB6B-FB8B-BE9D-5D73A3E4F328</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C33F987-F00E-9338-A0A1-DEBC2F086CB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B293DBA0-BCFC-90F6-7228-39558056793B" name="obuhvataProiz_ProdUgovor_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>5BBE1A67-8CD6-DCF3-6365-4324D1F1C73A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F129D44A-5E55-DD36-A279-6D6193F4EFA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

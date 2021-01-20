@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F8EBB4B1-B988-F142-F847-3E783B35B4F4" containerWithKeyObject="E02D5E96-79F0-D887-943F-6F7B96F341F7" localFKIndex="B90EAAD3-2ABB-9D28-BE13-05502FBBA8E2" name="isporucuje_potpisanPUD_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>25ACA126-3EA7-7B3A-810B-9F281148065E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>potpisanPUD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1007E945-D5E7-5D43-E37B-1B335321AC8D</referredTableID>
+<keyObject>0D172854-4356-3086-5806-D4EEE337188E</keyObject>
+<referredKeyID>0D172854-4356-3086-5806-D4EEE337188E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Distributer_idDist,ProdUgovor_idUgo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

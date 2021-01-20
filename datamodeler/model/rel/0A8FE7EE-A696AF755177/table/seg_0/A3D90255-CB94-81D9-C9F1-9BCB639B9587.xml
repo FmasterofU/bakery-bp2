@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3D90255-CB94-81D9-C9F1-9BCB639B9587" name="Ugovor">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>0F32FD3A-00E9-F74A-C626-677052AFC1F7</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idUgo" id="A67F6E2C-7711-0E77-6235-83E4FA34237A">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>E05DAAA2-3CBE-3ED5-C55A-03AC84DCFC96</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipUgo" id="D4F00D92-2BF8-77EA-9D68-188D0542C457">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>C4E0D4A8-CCED-4780-AB77-34971B187302</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<constraintName>CH_INH_Ugovor</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<domain>077CCE1F-47DF-8BFB-CA11-3AD6821466DA</domain>
+<listOfValues>
+<valueDef value="NabUgovor" description="entity NabUgovor"/>
+<valueDef value="ProdUgovor" description="entity ProdUgovor"/>
+<valueDef value="Ugovor" description="entity Ugovor"/>
+</listOfValues>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="Menadzer_idZap" id="DD51FEB6-6FF7-FBC1-9BE6-5B4B99FCA1C1">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>0C2CFCA7-E68E-F7AE-7033-0E15D70BC0C1</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D293FEA6-EAA4-2779-4BB9-984991EAC1BB" referredColumn="6C247E87-E2F4-40C4-A854-5D5042B1C348"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8EC3791C-3359-A373-E8AA-B8C5DD503A14" name="Ugovor_PK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>37B5091E-80BD-0643-A681-5338FD16ECA3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A67F6E2C-7711-0E77-6235-83E4FA34237A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4322B5C-4ED1-C9AB-C316-445EFD1F4156" name="Ugovor_Menadzer_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-20 12:34:47 UTC</createdTime>
+<generatorID>CDD5DE99-0113-6F71-BAD3-759149E656F1</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD51FEB6-6FF7-FBC1-9BE6-5B4B99FCA1C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

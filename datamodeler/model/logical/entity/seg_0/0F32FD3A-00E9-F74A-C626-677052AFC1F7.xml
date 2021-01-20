@@ -4,7 +4,7 @@
 <createdTime>2021-01-19 19:05:53 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+<item key="0A8FE7EE-84B0-AC5D-9A71-A696AF755177" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,13 +14,15 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>C4E0D4A8-CCED-4780-AB77-34971B187302</discriminatorAttributeID>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="idUgo" id="E05DAAA2-3CBE-3ED5-C55A-03AC84DCFC96">
 <createdBy>igors</createdBy>
 <createdTime>2021-01-19 19:06:02 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+<item key="0A8FE7EE-84B0-AC5D-9A71-A696AF755177" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +34,7 @@
 <createdTime>2021-01-19 19:10:01 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+<item key="0A8FE7EE-84B0-AC5D-9A71-A696AF755177" value="true"/>
 </engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -45,7 +47,7 @@
 <generatorID>CDD5DE99-0113-6F71-BAD3-759149E656F1</generatorID>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+<item key="0A8FE7EE-84B0-AC5D-9A71-A696AF755177" value="true"/>
 </engineerTo>
 <referedAttribute>981CDBDB-3D67-1845-A8E4-48DA2BF8F428</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,7 +62,7 @@
 <createdTime>2021-01-19 19:06:15 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="13F43608-E78F-FA41-88E2-BD211A7CB81C" value="true"/>
+<item key="0A8FE7EE-84B0-AC5D-9A71-A696AF755177" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

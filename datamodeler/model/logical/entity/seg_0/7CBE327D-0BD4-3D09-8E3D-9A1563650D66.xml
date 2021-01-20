@@ -4,7 +4,7 @@
 <createdTime>2021-01-19 19:11:09 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="0102D821-2B72-6FC3-8949-0DE899A908E7" value="true"/>
+<item key="0A8FE7EE-84B0-AC5D-9A71-A696AF755177" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,13 +14,15 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>225C6EE3-A151-0CB7-9C14-66B2C1CD652A</discriminatorAttributeID>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="idZap" id="981CDBDB-3D67-1845-A8E4-48DA2BF8F428">
 <createdBy>igors</createdBy>
 <createdTime>2021-01-19 19:11:35 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="0102D821-2B72-6FC3-8949-0DE899A908E7" value="true"/>
+<item key="0A8FE7EE-84B0-AC5D-9A71-A696AF755177" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +34,7 @@
 <createdTime>2021-01-19 19:11:56 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="0102D821-2B72-6FC3-8949-0DE899A908E7" value="true"/>
+<item key="0A8FE7EE-84B0-AC5D-9A71-A696AF755177" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +47,7 @@
 <createdTime>2021-01-19 19:12:21 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="0102D821-2B72-6FC3-8949-0DE899A908E7" value="true"/>
+<item key="0A8FE7EE-84B0-AC5D-9A71-A696AF755177" value="true"/>
 </engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -59,7 +61,7 @@
 <createdTime>2021-01-19 19:11:51 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <engineerTo>
-<item key="0102D821-2B72-6FC3-8949-0DE899A908E7" value="true"/>
+<item key="0A8FE7EE-84B0-AC5D-9A71-A696AF755177" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
