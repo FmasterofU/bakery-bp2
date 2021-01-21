@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="450FE514-28D1-D129-18DB-06F9C2A9A640" name="FKArc_1">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>D6C5A0C5-E059-D7E1-6F6E-8F7F5CC0F5E4</table>
+<discriminatorColumn>0930AA9E-904E-3376-7EBC-710458081869</discriminatorColumn>
+<fkeys>
+<fkeyID>93FA2C5B-F26D-F2DD-9F29-A8D7647C4DBA</fkeyID>
+<fkeyID>4BEF79A3-BB1B-4753-7DB5-4CCD3E1C7174</fkeyID>
+</fkeys>
+</FKArc>

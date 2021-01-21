@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8E9C1564-AFDD-E192-DDB0-3EC921585622" containerWithKeyObject="638A2A53-A07B-52DD-1E7E-0F04A2F1C8DC" localFKIndex="58C2D41E-DD44-6725-98B3-6B9BCAFC2A4D" name="obuhvataProiz_ProdUgovor_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<generatorID>5BBE1A67-8CD6-DCF3-6365-4324D1F1C73A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>ProdUgovor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5518B834-C7CA-C2C4-BA11-5FAE37787988</referredTableID>
+<keyObject>1E4651E4-AF66-02D5-076A-FC33C0D3DBA1</keyObject>
+<referredKeyID>1E4651E4-AF66-02D5-076A-FC33C0D3DBA1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idUgo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

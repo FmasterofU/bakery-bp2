@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8295E376-83F9-2F85-820A-334BF9827276" name="isporucuje">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<generatorID>90EC9C74-02F6-F924-E94D-DCD62D545A62</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="potpisanPUD_Distributer_idDist" id="8F37ABCA-62F6-6FDD-DB41-D5E13BBD15D1">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<generatorID>92C34F0D-1687-906B-2420-2981A5D8F514</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1048A4C3-1C2A-91B8-638A-444051AEBCCE" referredColumn="4B995970-29F3-C7BA-8B4D-7F6F18356AC5"/>
+</associations>
+</Column>
+<Column name="potpisanPUD_ProdUgovor_idUgo" id="1FA72BB0-55EE-AE56-FE0E-64A9C3A2C1D1">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<generatorID>6C6C514F-F799-9632-06DC-5B3E6F51D4C5</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1048A4C3-1C2A-91B8-638A-444051AEBCCE" referredColumn="CCB9B454-F85F-BA66-A104-33A2FE9CDC76"/>
+</associations>
+</Column>
+<Column name="obuhvataProiz_idUgo" id="01351ACF-C044-2A72-6F82-C1A6ABC00C8E">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<generatorID>814E5D84-B67A-7678-82AF-7CD23C127708</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69CC46DF-00D9-A36A-DC97-E3B63791B693" referredColumn="21492733-3C93-5213-EDCC-B92713B37EED"/>
+</associations>
+</Column>
+<Column name="obuhvataProiz_idProiz" id="CFBA3DA8-9EE4-17C3-0399-817B5CB1C72F">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<generatorID>AF57A046-2AF4-F782-FD04-30F8A6ED8B4E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69CC46DF-00D9-A36A-DC97-E3B63791B693" referredColumn="48065C3E-CBA9-D415-4A52-CAA52969BADB"/>
+</associations>
+</Column>
+<Column name="Prodavnica_idProd" id="AA19A086-F7E6-6909-5B07-3CB44D56275B">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<generatorID>3E787F12-2B9D-CBA4-043C-91A75B106DB4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A2C8755-D278-C53B-2F73-9812992A00ED" referredColumn="3996CBCB-880B-A04C-FE8C-58BCC45320BB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19E823EA-7879-D255-FC0A-D163767CF3EA" name="isporucuje_PK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<generatorID>4C1C3005-784B-09FF-E7A1-174E12946684</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F37ABCA-62F6-6FDD-DB41-D5E13BBD15D1"/>
+<colUsage columnID="1FA72BB0-55EE-AE56-FE0E-64A9C3A2C1D1"/>
+<colUsage columnID="01351ACF-C044-2A72-6F82-C1A6ABC00C8E"/>
+<colUsage columnID="CFBA3DA8-9EE4-17C3-0399-817B5CB1C72F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D68F0A28-E2C3-2344-BA7A-0AB96562CF15" name="isporucuje_Prodavnica_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<generatorID>1B3E3728-1F66-179A-678E-8DDFF24AD585</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA19A086-F7E6-6909-5B07-3CB44D56275B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="779DAD2A-5E46-537B-6F92-9FCFC4E89902" name="isporucuje_obuhvataProiz_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<generatorID>94D0A5FF-9692-94E6-2E28-7FA123EE4DDE</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01351ACF-C044-2A72-6F82-C1A6ABC00C8E"/>
+<colUsage columnID="CFBA3DA8-9EE4-17C3-0399-817B5CB1C72F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="492A6A72-5165-0B8F-B2AF-8F40C2A598D5" name="isporucuje_potpisanPUD_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<generatorID>25ACA126-3EA7-7B3A-810B-9F281148065E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F37ABCA-62F6-6FDD-DB41-D5E13BBD15D1"/>
+<colUsage columnID="1FA72BB0-55EE-AE56-FE0E-64A9C3A2C1D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

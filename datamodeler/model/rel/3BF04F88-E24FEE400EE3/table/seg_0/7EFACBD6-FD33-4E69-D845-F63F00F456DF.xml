@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7EFACBD6-FD33-4E69-D845-F63F00F456DF" name="pravi">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pekar_idZap" id="B952F2D1-558C-819E-9AF5-7B23089D967D">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97539CE6-D619-2DCD-5AE5-A36F77D50C97" referredColumn="83D46F15-2169-9275-A439-A9B55333915D"/>
+</associations>
+</Column>
+<Column name="Proizvod_idProiz" id="045BD644-8733-C04B-8AF6-E4280D3CAB3A">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="340E2E1E-2E9D-E7B1-3ECE-921DE2662AD3" referredColumn="C02CE8FA-476A-4FD0-5395-21A02A861587"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87D05D29-B978-5CC5-1D22-6F0720AA5773" name="pravi_PK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B952F2D1-558C-819E-9AF5-7B23089D967D"/>
+<colUsage columnID="045BD644-8733-C04B-8AF6-E4280D3CAB3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74954A49-6954-E511-B4E9-2DDBCAA2C029" name="pravi_Pekar_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<generatorID>2FF4793C-2DBA-C8DA-D9C5-440179DCD65C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B952F2D1-558C-819E-9AF5-7B23089D967D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21143EE8-96A3-DD70-34B7-1D45113613E3" name="pravi_Proizvod_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<generatorID>2FF4793C-2DBA-C8DA-D9C5-440179DCD65C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="045BD644-8733-C04B-8AF6-E4280D3CAB3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

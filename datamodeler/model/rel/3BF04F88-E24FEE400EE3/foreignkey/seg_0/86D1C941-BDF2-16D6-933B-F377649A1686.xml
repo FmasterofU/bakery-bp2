@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="86D1C941-BDF2-16D6-933B-F377649A1686" containerWithKeyObject="D6C5A0C5-E059-D7E1-6F6E-8F7F5CC0F5E4" localFKIndex="93D156CF-E12B-5FA2-7765-A664BFB7B515" name="Ugovor_Menadzer_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<generatorID>CDD5DE99-0113-6F71-BAD3-759149E656F1</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Menadzer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>943BFB23-B5BC-9AB6-9C7B-6BC04E9EF316</referredTableID>
+<keyObject>7F4C24E2-20BE-1309-A997-38E2F79DC213</keyObject>
+<referredKeyID>7F4C24E2-20BE-1309-A997-38E2F79DC213</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idZap</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

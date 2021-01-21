@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="292A0A52-9F03-FE06-3AE1-D403A810DF2F" name="sastav">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Proizvod_idProiz" id="4D064D46-0126-5A32-6EC0-7C661633063F">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13E2F4A6-5DA5-5788-6932-D9F9C07DE659" referredColumn="C02CE8FA-476A-4FD0-5395-21A02A861587"/>
+</associations>
+</Column>
+<Column name="Sirovina_idSir" id="7C5BC092-43E3-BB25-796C-AB638592C6CA">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A85D36E9-4D3E-204B-BEEE-760E694783B9" referredColumn="2405DF04-94EF-0C2D-12D2-909B13DF3224"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FDA8229-00DC-90D6-918E-075267BD104F" name="sastav_PK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D064D46-0126-5A32-6EC0-7C661633063F"/>
+<colUsage columnID="7C5BC092-43E3-BB25-796C-AB638592C6CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99792B79-0A97-B3E2-C0C5-395E3148DFB9" name="sastav_Proizvod_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<generatorID>96FF150F-5A6F-9B4F-6362-F5A976346FBA</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D064D46-0126-5A32-6EC0-7C661633063F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12ABCF5F-EE7F-F507-E4FD-E9337FD3984A" name="sastav_Sirovina_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<generatorID>96FF150F-5A6F-9B4F-6362-F5A976346FBA</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C5BC092-43E3-BB25-796C-AB638592C6CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

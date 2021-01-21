@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="943BFB23-B5BC-9AB6-9C7B-6BC04E9EF316" name="Menadzer">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<generatorID>C8311DB5-A62D-AD2D-4CD6-7E6B8CDF0C67</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idZap" id="6DF49823-BA8D-A608-ED91-8284ACD977E1">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<generatorID>981CDBDB-3D67-1845-A8E4-48DA2BF8F428</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98A02755-78A4-1F67-D4DA-55B99D0C090E" referredColumn="C8DFA8C3-AEFC-E5DD-6707-3683A3BC7002"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F4C24E2-20BE-1309-A997-38E2F79DC213" name="Menadzer_PK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<generatorID>D90A3BBA-9283-0A65-27FF-3F0F2B42A32F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DF49823-BA8D-A608-ED91-8284ACD977E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDB709AB-272E-737A-9651-65F14966288E" name="Menadzer_Zaposleni_FK">
+<createdBy>igors</createdBy>
+<createdTime>2021-01-21 13:12:16 UTC</createdTime>
+<generatorID>4DE2AD48-C010-4188-6C6F-A51FCEB10E23</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DF49823-BA8D-A608-ED91-8284ACD977E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
