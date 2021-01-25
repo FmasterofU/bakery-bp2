@@ -5,8 +5,10 @@
 - [ER diagram](er.png)
 - [ER diagram draw](bakery-er.drawio)
 - [logical and relational models](datamodeler/)
+- [Logical model - picture](Logical.png)
+- [Relational model - picture](Relational.png)
 - [DDL](bakery.ddl)
-- [inserts/filled db backup](populated_database_inserts_export.sql)
+- [inserts/filled db backup](inserts_dbexport.sql)
 - [Google Docs link - Bakery specification/IS](https://docs.google.com/document/d/1R_zmG_-pziilKvJb1iJ_jy6beBdHl5H3q77kCZa4_G0/edit?usp=sharing)
 
 [MIT@Igor Šikuljak](LICENSE)
